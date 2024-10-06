@@ -1,0 +1,131 @@
+---
+expression: 
+- "normal"
+- "sad"
+- "angry"
+sprite_info: 
+  psram: "true"
+  color_depth: "16"
+  swap_bytes: "0"
+color_info: 
+  skin: "0xFF5B00"
+  eye_white: "0xFFFFFF"
+  transparent: "0x00FF00"
+fixed_parts: 
+- parts: "body"
+  x: "0"
+  y: "0"
+  w: "128"
+  h: "128"
+  filename: "/bmp_01/head.bmp"
+mouth: 
+-
+  normal: 
+    x: "64"
+    y: "70"
+    w: "44"
+    h: "28"
+    filename: 
+      open: "/bmp_01/mouth_op_normal.bmp"
+      close: "/bmp_01/mouth_cl_normal.bmp"
+    minScaleX: "1"
+    maxScaleX: "1"
+    minScaleY: "0.1"
+    maxScaleY: "1"
+-
+  sad: 
+    x: "64"
+    y: "80"
+    w: "44"
+    h: "28"
+    filename: 
+      open: "/bmp_01/mouth_op_normal.bmp"
+      close: "/bmp_01/mouth_cl_normal.bmp"
+    minScaleX: "1"
+    maxScaleX: "1"
+    minScaleY: "0.1"
+    maxScaleY: "1"
+-
+  angry: 
+    x: "64"
+    y: "90"
+    w: "44"
+    h: "28"
+    filename: 
+      open: "/bmp_01/mouth_op_normal.bmp"
+      close: "/bmp_01/mouth_cl_normal.bmp"
+    minScaleX: "1"
+    maxScaleX: "1"
+    minScaleY: "0.1"
+    maxScaleY: "1"
+eye: 
+-
+  normal: 
+    rx: "20"
+    ry: "40"
+    lx: "108"
+    ly: "40"
+    w: "22"
+    h: "28"
+    filename: 
+      open: "/bmp_01/eye_r_op_normal.bmp"
+      close: "/bmp_01/eye_r_cl_normal.bmp"
+    minScaleX: "1"
+    maxScaleX: "1"
+    minScaleY: "0.3"
+    maxScaleY: "1"
+    invert: "true"
+-
+  sad: 
+    rx: "20"
+    ry: "60"
+    lx: "108"
+    ly: "60"
+    w: "22"
+    h: "28"
+    filename: 
+      open: "/bmp_01/eye_r_op_normal.bmp"
+      close: "/bmp_01/eye_r_cl_normal.bmp"
+    minScaleX: "1"
+    maxScaleX: "1"
+    minScaleY: "0.3"
+    maxScaleY: "1"
+    invert: "true"
+-
+  angry: 
+    rx: "20"
+    ry: "50"
+    lx: "108"
+    ly: "50"
+    w: "22"
+    h: "28"
+    filename: 
+      open: "/bmp_01/eye_r_op_normal.bmp"
+      close: "/bmp_01/eye_r_cl_normal.bmp"
+    minScaleX: "1"
+    maxScaleX: "1"
+    minScaleY: "0.3"
+    maxScaleY: "1"
+    invert: "true"
+init_param: 
+-
+  normal: 
+    eye_l_ratio: "0"
+    eye_r_ratio: "0"
+    mouth_ratio: "0"
+    angle: "0"
+    breath: "0"
+-
+  sad: 
+    eye_l_ratio: "0"
+    eye_r_ratio: "0"
+    mouth_ratio: "0"
+    angle: "0"
+    breath: "0"
+-
+  angry: 
+    eye_l_ratio: "0"
+    eye_r_ratio: "0"
+    mouth_ratio: "0"
+    angle: "0"
+    breath: "0"
